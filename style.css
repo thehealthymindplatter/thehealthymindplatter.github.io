@@ -1,0 +1,396 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #E0ECF8;
+}
+
+html{
+  font-family: "IBM plex sans", sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  overflow-y: hidden;
+ 
+}
+
+header {
+  background-color: #BF708D;
+  width: 100%;
+  height: 85px;
+  margin: auto;
+  margin-top: -20px;
+  margin-bottom: -20px;
+  filter: drop-shadow(0 0 0.75rem rgba(63, 63, 63, 0.0));
+  top: 20px;
+  z-index: -1;
+}
+
+h1 {
+  font-size: 58px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #313742;
+  text-align: center;
+  padding-top: 10px;
+  -webkit-text-stroke: 1px #ffbcd4;
+  line-height: 1;
+}
+
+.stripe {
+  width: 100%;
+  height: 20px;
+  margin: auto;
+  margin-top: -75px;
+  background-color: #ffbcd4;
+}
+
+
+
+.intro {
+  
+    width: 35%;
+    height: auto;
+    margin: auto;
+    background-color: #F1A5C1;
+    padding-top: 5px;
+    margin-bottom: 60px;
+    border-radius: 20px;
+    filter: drop-shadow(0 0 0.75rem rgba(63, 63, 63, 0.0));
+    margin-top: -100px;
+    margin-right: 700px;
+    margin-left: 135px;
+    position:absolute;
+    top:230px;
+    left:70px;
+    border-width: 3;
+    border-style: solid;
+    border-color: #BF708D;
+}
+
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  color: #31171e;
+  margin: 0;
+  padding: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+/*---------------------------------------------------Menu------------------------------*/
+@keyframes breating-menu {
+  0% {
+ transform: scale(1)
+  }
+  50% {
+ transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+  }
+ }
+.toggle {
+  background-color: #ffffff;
+  text-align: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border-color: #c87f8a;
+  border-width: 5px;
+  position: absolute;
+  margin: auto;
+  margin-top: 40px;
+  background-image: url(center.png);
+  background-size: cover;
+  top: 263px;
+  right: 350px;  
+  z-index: 100;
+  /*animation-name: breating-menu;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;*/
+  cursor: pointer;
+}
+
+
+
+.center{
+  width: 200px;
+  height: auto;
+
+}
+
+
+.menu {
+  /*background-color:rgba(239,242,245,1);*/
+  background-color: #ffff;
+  height: 170px;
+  width: 170px;
+  transform: scale(0);
+  border-radius: 50%;
+  border-style: double;
+  border-color: #c87f8a;
+  border-width: 5px;
+  position: absolute;
+  margin: auto;
+  z-index: 50;
+  transition: 0.7s;
+  top: 319px;
+  right:358px;
+}
+a:link{
+  color:#313742
+}
+
+a:visited{
+  color:#313742
+}
+#menu a {
+  width:40px;
+  height:30px;
+  display: block;
+  position: absolute;
+  font-size: 15px;
+  /*background-color: #AFBCCD;*/
+  /*border-radius: 50%;*/
+  border-color:#AFBCCD;
+}
+
+
+#menu a:nth-child(1){
+  top: 8px;
+  left: 70px;
+  text-decoration: none;
+  font-size: 5px;
+  
+}
+
+.focustime{
+  width: 30px;
+  height: auto;
+}
+
+#menu a:nth-child(2){
+  top: 32px;
+  left: 114px;
+  text-decoration: none;
+  font-size: 5px;
+  text-align: center;
+}
+
+.playtime{
+  width: 30px;
+  height: auto;
+}
+
+#menu a:nth-child(3){
+  top: 79px;
+  left: 125px;
+  text-decoration: none;
+  font-size: 5px;
+  text-align: center;
+}
+
+.timein{
+  width: 30px;
+  height: auto;
+}
+
+#menu a:nth-child(4){
+  top: 117px;
+  left: 90px;
+  text-decoration: none;
+  font-size: 5px;
+  text-align: center;
+}
+
+.connecttime{
+  width: 30px;
+  height: auto;
+}
+
+#menu a:nth-child(5){
+  top: 114px;
+  left: 36px;
+  text-decoration: none;
+  text-decoration-color: #313742;
+  font-size: 5px;
+  text-align: center;
+}
+
+.physicaltime{
+  width: 30px;
+  height: auto;
+}
+
+#menu a:nth-child(6){
+  top: 82px;
+  left: 7px;
+  text-decoration: none;
+  font-size: 5px;
+  text-align: center;
+}
+
+.sleeptime{
+  width: 30px;
+  height: auto;
+}
+
+#menu a:nth-child(7){
+  top: 28px;
+  left: 16px;
+  text-decoration: none;
+  font-size: 5px;
+  text-align: center;
+}
+
+.downtime{
+  width: 30px;
+  height: auto;
+}
+
+
+#menu a:hover {
+  color: #c87f8a;
+  transform: scale(1.25);
+}
+
+
+.click{
+  width: 100px;
+  height: auto;
+  margin: auto;
+  margin-top: 5;
+  background-color: #BF708D;
+  padding: 5px;
+  margin-bottom: 60px;
+  border-radius: 20px;
+  filter: drop-shadow(0 0 0.75rem rgba(63, 63, 63, 0.0));
+  margin-top: 5px;
+  position: absolute;
+  top:540px;
+  right:390px; 
+  z-index:-1 ;
+  text-align: center;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/*-------------------------------------Question Mark-----------------------------------------*/
+
+@keyframes bounce {
+  0%   {margin-top: 0px;}
+  50%  {margin-top: 20px;}
+  100% {margin-top: 0px;}
+}
+.question{
+top: 670px;
+left:1320px;
+display: block;
+animation-name: bounce;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+z-index: 100;
+position: absolute;
+}
+
+.qm{
+  display: block;
+  /*position: absolute;*/
+  top: 30px;
+ /* left:0px;*/
+ right:20px;
+  width: 70px;
+  height: auto;
+}
+/*------------------------------------------About-----------------------------------------*/
+.about{
+  width: 40%;
+    height: auto;
+    margin: auto;
+    background-color: #F1A5C1;
+    padding: 5px;
+    margin-bottom: 60px;
+    border-radius: 20px;
+    filter: drop-shadow(0 0 0.75rem rgba(63, 63, 63, 0.0));
+    margin-top: 40px;
+    border-width: 3;
+    border-style: solid;
+    border-color: #BF708D;
+
+}
+
+/*---------------------------------------home button------------------------------------*/
+.back-div {
+  width: 80px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+ /* margin-bottom: -350px;
+  margin-left: 320px;
+  margin-top: 0px; */
+  display: block;
+  font-size: 14px;
+  position: absolute;
+  top: 50;
+  left: 100;
+  margin-left: 100px;
+}
+
+.home {
+  width: 80px;
+  margin-bottom: -10px;
+}
+
+.homelink {
+  top: 53px;
+  left: 200px;
+  position: absolute;
+  display: block;
+  color: #1f232a
+}
+
+/*-----------------------------------footer------------------------------------------------- */
+
+footer{
+  width: 100%;
+  height:40px;
+  background-color: #313742;
+  color: #AEBFCF;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  padding: 2px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  top: 790px;
+
+}
+
+.about-h2 {
+  margin-left: 25px; 
+  margin-top: 20px;
+  margin-bottom: -5px; 
+  font-size: 20px; 
+}
+
+.contact-list {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  color: #31171e;
+}
+
+.book-img {
+  width: 50%;
+  padding-left: 120px;
+  padding-top: 20px; 
+}
+
+.book-link:visited {
+  color: blue;
+}
+
+.book-link:link {
+  color: blue;
+}
+
