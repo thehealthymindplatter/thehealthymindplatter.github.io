@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #E0ECF8;
+    background-image: url();
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.back-div {
+    width: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-bottom: -170px;
+    margin-left: 80px;
+    padding-top: 30px;
+    font-size: 14px;
+}
+
+.home {
+    width: 80px;
+    margin-bottom: -10px;
+}
+
+.homelink {
+    color: #1f232a
+}
+
+.background {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #BF708D;
+    padding-top: 0px;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    filter: drop-shadow(0 0 0.75rem rgba(92, 63, 63, 0.0));
+}
+
+
+h1 {
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #313742;
+    text-align: center;
+    padding-top: 30px;
+    -webkit-text-stroke: 1px #ffbcd4;
+}
+
+
+a:hover {
+    color: #ffbcd4;
+}
+
+a {
+    text-decoration: none;
+    color: #763D4C;
+}
+
+.headerbackground {
+    width: 80%;
+    margin: auto;
+    background-color: #ffbcd4;
+    padding: 10px 25px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+
+.about {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4c2731;
+}
+
+.emoji {
+    font-size: 40px;
+    margin: 0;
+}
+
+.audio-player {
+    height: 200px;
+    width: 300px;
+    margin: auto;
+}
+
+.video {
+margin: auto;
+}
+
+.pomodoro-h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: #4c2731;
+    margin-top: 30px;
+}
+
+.pomodoro-list, .nap-list, .tournament, .energizer {
+margin-top: 30px;
+}
+
+.pomodoro-list-items, .nap-list-items, .tournament-items, .energizer-item {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4c2731;
+}
+
+iframe {
+    margin: auto;
+    padding-right:10px;
+    padding-bottom: 10px;
+}
+
+.timer {
+    margin: auto;
+    width: 140px;
+    height: 140px;
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    color: #4c2731;
+    background-color: #fefefe;
+    border-radius: 50%;
+}
